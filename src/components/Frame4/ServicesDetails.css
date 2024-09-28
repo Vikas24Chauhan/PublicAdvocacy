@@ -1,0 +1,81 @@
+.servicesDetails-main-div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e5e5;
+}
+
+.servicesDetails-main-div h1 {
+  width: 100%;
+  height: 80px;
+  opacity: 10%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  line-height: 150px;
+  text-align: center;
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+    height: 60px;
+  }
+}
+
+.servicesDetails-main-div h2 {
+  width: 100%;
+  height: 77px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  line-height: 77px;
+  text-align: center;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+}
+
+.services-cards {
+  width: 90%;
+  height: 94%;
+  margin: 4rem 0;
+}
+
+.services-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.services-image {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.about-services {
+  width: 50%;
+  height: auto;
+}
+
+.about-services h3 {
+  width: 100%;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+
+.about-services p {
+  width: 100%;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.about-services img {
+  width: 25%;
+  height: auto;
+}

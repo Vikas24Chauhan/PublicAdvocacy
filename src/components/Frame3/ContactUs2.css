@@ -1,0 +1,59 @@
+.contact2-main-div {
+  width: 100%px;
+  height: auto;
+}
+
+.contact2-main-div h1 {
+  width: 100%;
+  height: 80px;
+  opacity: 10%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  line-height: 150px;
+  text-align: center;
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+    height: 60px;
+  }
+}
+.contact2-main-div h2 {
+  width: 100%;
+  height: 77px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  line-height: 77px;
+  text-align: center;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+}
+
+.contact2-cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 4rem 0;
+  justify-content: space-around;
+}
+
+.contact2-card {
+  width: 25%;
+  height: auto;
+}
+
+.contact2-card h3 {
+  width: 100%;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+.contact2-card p {
+  width: 90%;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}

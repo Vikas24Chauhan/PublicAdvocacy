@@ -1,0 +1,18 @@
+.header-container {
+  width: 100%;
+  height: auto;
+  background-color: cadetblue;
+  padding: 4px 0px;
+  position: fixed;
+}
+
+.header-container ul li {
+  display: inline-block;
+  margin: 2px 25px;
+  font-size: 1.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

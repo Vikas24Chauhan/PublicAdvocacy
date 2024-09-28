@@ -1,0 +1,34 @@
+.services-main-div {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.services-logo {
+  width: 10%;
+  height: auto;
+  margin: 3rem 2rem;
+}
+
+.services-main-div h2 {
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 11rem;
+  text-align: center;
+}
+
+.services-phone {
+  width: 5%;
+  height: auto;
+  padding-left: 92%;
+}
+
+.services-whatsapp {
+  width: 5%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 92%;
+}

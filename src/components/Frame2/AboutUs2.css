@@ -1,0 +1,27 @@
+.aboutUs2-main-div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  padding: 2rem 0;
+}
+
+.aboutUs2-img-div {
+  width: 40%;
+  height: auto;
+}
+
+.aboutUs2-content-div {
+  width: 60%;
+  height: auto;
+}
+
+.aboutUs2-content-div p {
+  width: 90%;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  line-height: 45px;
+}

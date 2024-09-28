@@ -1,0 +1,36 @@
+.infoHome-main-div {
+  width: 100%;
+  height: 600px;
+  background-image: url(/images/info_home.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.infoHome-logo {
+  width: 10%;
+  height: auto;
+  margin: 3rem 2rem;
+}
+
+.infoHome-main-div h2 {
+  width: 100%;
+  height: 130px;
+  color: #ffffff;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 6.25rem;
+  line-height: 130px;
+  text-align: center;
+}
+
+.infoHome-main-div p {
+  width: 100%;
+  height: 85px;
+  color: #ffffff;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  line-height: 42px;
+  text-align: center;
+}

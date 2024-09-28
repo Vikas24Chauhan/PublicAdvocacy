@@ -1,0 +1,30 @@
+.startup-main-div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.startup-image {
+  width: 45%;
+  height: auto;
+}
+
+.startup-image img {
+  width: 90%;
+  height: auto;
+}
+
+.startup-para {
+  width: 45%;
+  height: auto;
+}
+
+.startup-para p {
+  width: 95%;
+  height: auto;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
