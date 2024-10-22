@@ -15,10 +15,6 @@
   font-size: 5rem;
   line-height: 150px;
   text-align: center;
-  @media (max-width: 768px) {
-    font-size: 2.5rem;
-    height: 60px;
-  }
 }
 
 .company-div h2 {
@@ -29,9 +25,6 @@
   font-size: 3rem;
   line-height: 77px;
   text-align: center;
-  @media (max-width: 768px) {
-    font-size: 1.5rem;
-  }
 }
 
 .company-cards {
@@ -39,12 +32,7 @@
   height: auto;
   padding: 5rem 0;
   display: flex;
-  justify-content: space-between;
-  @media (max-width: 768px) {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-  }
+  justify-content: space-around;
 }
 
 .company-card {
@@ -53,14 +41,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media (max-width: 768px) {
-    width: 45%;
-  }
 }
 
 .ellipse-div {
   width: 50%;
-  height: 10rem;
+  height: 50%;
   border-radius: 50%;
   background-color: #e5e5e5;
   display: flex;
@@ -88,7 +73,81 @@
   font-family: "Poppins", sans-serif;
   font-size: 4rem;
   text-align: center;
-  @media (max-width: 768px) {
-    width: 3rem;
+}
+
+@media (max-width: 1024px) {
+  .company-div h1 {
+    font-size: 4rem;
+    height: 70px;
+    opacity: 20%;
+  }
+
+  .company-div h2 {
+    font-size: 2.5rem;
+  }
+
+  .company-card {
+    width: 30%;
+  }
+
+  .company-card h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .company-div h1 {
+    font-size: 2.5rem;
+    height: 60px;
+  }
+
+  .company-div h2 {
+    font-size: 1.5rem;
+    height: 50px;
+  }
+
+  .company-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .company-card {
+    width: 45%;
+  }
+
+  .company-card h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .company-div h1 {
+    font-size: 1.5rem;
+    height: 80px;
+  }
+
+  .company-div h2 {
+    font-size: 1.5rem;
+    line-height: 25px;
+    height: 40px;
+  }
+
+  .company-card h4 {
+    font-size: 1rem;
+  }
+
+  .company-card h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .company-card {
+    width: 90%;
+  }
+
+  .ellipse-div {
+    height: 75%;
   }
 }
