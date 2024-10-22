@@ -16,10 +16,6 @@
   font-size: 5rem;
   line-height: 150px;
   text-align: center;
-  @media (max-width: 768px) {
-    font-size: 2.5rem;
-    height: 60px;
-  }
 }
 
 .client-main-div h2 {
@@ -30,9 +26,6 @@
   font-size: 3rem;
   line-height: 77px;
   text-align: center;
-  @media (max-width: 768px) {
-    font-size: 1.5rem;
-  }
 }
 
 .companies-logo {
@@ -40,12 +33,13 @@
   height: auto;
   margin: 4rem 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 2rem;
-  @media (max-width: 768px) {
-    justify-content: space-around;
-  }
+}
+
+.logos img {
+  width: 90%;
 }
 
 .logos {
@@ -55,7 +49,52 @@
   flex-direction: column;
   align-items: center;
   margin: 1rem 0;
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 1024px) {
+  .client-main-div h1 {
+    font-size: 4rem;
+    height: 70px;
+    opacity: 20%;
+  }
+
+  .client-main-div h2 {
+    font-size: 2.5rem;
+  }
+
+  .logos {
+    width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .client-main-div h1 {
+    font-size: 2.5rem;
+    height: 60px;
+  }
+
+  .client-main-div h2 {
+    font-size: 1.5rem;
+    height: 50px;
+  }
+
+  .logos {
+    width: 32%;
+  }
+}
+
+@media (max-width: 540px) {
+  .companies-logo {
+    width: 90%;
+  }
+
+  .logos {
     width: 40%;
+  }
+}
+
+@media (max-width: 360px) {
+  .logos {
+    width: 90%;
   }
 }
