@@ -14,10 +14,6 @@
   font-size: 5rem;
   line-height: 150px;
   text-align: center;
-  @media (max-width: 768px) {
-    font-size: 2.5rem;
-    height: 60px;
-  }
 }
 
 .testimonial-main-div h2 {
@@ -28,21 +24,14 @@
   font-size: 3rem;
   line-height: 77px;
   text-align: center;
-  @media (max-width: 768px) {
-    font-size: 1.5rem;
-  }
 }
 
 .testimonial-div {
-  width: 100%;
+  width: 95%;
   height: auto;
-  margin: 4rem 0;
+  margin: 4rem auto;
   display: flex;
   justify-content: space-around;
-  @media (max-width: 768px) {
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
 }
 
 .test-div1,
@@ -57,64 +46,23 @@
   align-items: center;
   box-shadow: 0px 7px 22px 0px #0000004d;
   min-height: 300px;
-  @media (max-width: 768px) {
-    width: 45%;
-  }
 }
 
-.test-div1 img {
-  width: 25%;
-}
-
-.test-div1 h3 {
-  width: 100%;
-  height: auto;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
-  @media (max-width: 768px) {
-    font-size: 1.2rem;
-  }
-}
-
-.test-div1 h5 {
-  width: 50%;
-  height: auto;
-  margin: 0 auto;
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-  text-align: center;
-  @media (max-width: 768px) {
-    width: 75%;
-  }
-}
-
-.test-div1 p {
-  width: 90%;
-  height: auto;
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-  text-align: center;
-  @media (max-width: 768px) {
-    font-size: 13px;
-  }
-}
-
+.test-div1 img,
 .test-div2 img {
   width: 25%;
 }
 
+.test-div1 h3,
 .test-div2 h3 {
   width: 100%;
   height: auto;
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   text-align: center;
-  @media (max-width: 768px) {
-    font-size: 1.2rem;
-  }
 }
 
+.test-div1 h5,
 .test-div2 h5 {
   width: 50%;
   height: auto;
@@ -122,20 +70,15 @@
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   text-align: center;
-  @media (max-width: 768px) {
-    width: 75%;
-  }
 }
 
+.test-div1 p,
 .test-div2 p {
   width: 90%;
   height: auto;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   text-align: center;
-  @media (max-width: 768px) {
-    font-size: 13px;
-  }
 }
 
 .test-div3 {
@@ -147,10 +90,6 @@
   flex-direction: row;
   align-items: end;
   justify-content: space-between;
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: start;
-  }
 }
 
 .test-div3-text {
@@ -164,10 +103,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   margin-left: 2rem;
-  @media (max-width: 768px) {
-    font-size: 1.2rem;
-    margin-left: 1rem;
-  }
 }
 
 .test-div3-text h5 {
@@ -176,23 +111,114 @@
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   margin-left: 2rem;
-  @media (max-width: 768px) {
-    margin-left: 1rem;
-  }
 }
 
 .test-div3-img {
   width: 25%;
   height: auto;
-  @media (max-width: 768px) {
-    width: 50%;
-  }
 }
 
 .test-div3-img img {
   width: 50%;
   margin-left: 2rem;
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 1024px) {
+  .testimonial-main-div h1 {
+    font-size: 4rem;
+    height: 70px;
+    opacity: 20%;
+  }
+
+  .testimonial-main-div h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-main-div h1 {
+    font-size: 2.5rem;
+    height: 60px;
+  }
+
+  .testimonial-main-div h2 {
+    font-size: 1.5rem;
+    height: 50px;
+  }
+
+  .testimonial-div {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .test-div1,
+  .test-div2,
+  .test-div3 {
+    width: 45%;
+  }
+
+  .test-div1 img,
+  .test-div2 img {
+    width: 30%;
+  }
+
+  .test-div1 h3,
+  .test-div2 h3 {
+    font-size: 1.2rem;
+  }
+
+  .test-div1 h5,
+  .test-div2 h5 {
+    width: 75%;
+  }
+
+  .test-div1 p,
+  .test-div2 p {
+    font-size: 13px;
+  }
+
+  .test-div3 {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .test-div3-text h3 {
+    font-size: 1.2rem;
     margin-left: 1rem;
+  }
+
+  .test-div3-text h5 {
+    margin-left: 1rem;
+  }
+
+  .test-div3-img {
+    width: 40%;
+  }
+
+  .test-div3-img img {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .testimonial-main-div h1 {
+    font-size: 1.5rem;
+    height: 80px;
+  }
+
+  .testimonial-main-div h2 {
+    font-size: 1.5rem;
+    line-height: 25px;
+    height: 40px;
+  }
+
+  .test-div1,
+  .test-div2,
+  .test-div3 {
+    width: 90%;
+  }
+
+  .test-div3-img {
+    width: 30%;
   }
 }

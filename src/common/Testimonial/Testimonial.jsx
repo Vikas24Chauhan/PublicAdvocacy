@@ -17,9 +17,7 @@ function Testimonial() {
           <p>
             Working with JANUS PR has been a game-changer for our business.
             Their expertise and creativity in crafting our PR strategy have led
-            to remarkable media coverage and enhanced our brand image. The team
-            is professional, responsive, and truly understands our needs. Highly
-            recommend!
+            to remarkable media coverage and enhanced our brand image.
           </p>
         </div>
         <div className="test-div2">
