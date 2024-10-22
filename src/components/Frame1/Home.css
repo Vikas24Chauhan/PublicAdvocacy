@@ -9,7 +9,7 @@
 .logo-img {
   width: 10%;
   height: auto;
-  margin: 3rem 2rem;
+  margin: 3rem 0 0 2rem;
 }
 
 .phone-img {
@@ -26,4 +26,64 @@
   height: auto;
   padding-top: 700px;
   padding-left: 80%;
+}
+
+@media (max-width: 1024px) {
+  .main-div {
+    height: 600px;
+  }
+
+  .logo-img {
+    margin: 4rem 2rem;
+  }
+
+  .phone-img {
+    padding-top: 440px;
+    padding-left: 75%;
+  }
+
+  .whatsapp-img {
+    padding-top: 500px;
+    padding-left: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-div {
+    height: 500px;
+  }
+
+  .phone-img {
+    width: 6%;
+    padding-top: 360px;
+    padding-left: 70%;
+  }
+
+  .whatsapp-img {
+    width: 6%;
+    padding-top: 420px;
+    padding-left: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-div {
+    height: 400px;
+  }
+
+  .logo-img {
+    width: 12%;
+  }
+
+  .phone-img {
+    width: 8%;
+    padding-top: 290px;
+    padding-left: 65%;
+  }
+
+  .whatsapp-img {
+    width: 8%;
+    padding-top: 340px;
+    padding-left: 65%;
+  }
 }
