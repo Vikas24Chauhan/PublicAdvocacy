@@ -11,48 +11,7 @@ function Footer() {
       <div className="upper-div">
         <h1>CONNECT</h1>
         <h2>GET IN TOUCH</h2>
-        <form className="form-div" action="">
-          <input
-            type="text"
-            name="name"
-            id="name"
-            autoComplete="off"
-            placeholder="Name"
-          />
-          <input
-            type="email"
-            name="email"
-            id="email"
-            autoComplete="off"
-            placeholder="Email"
-          />
-          <br />
-          <input
-            type="text"
-            name="phone"
-            id="phone"
-            autoComplete="off"
-            placeholder="Phone"
-          />
-          <input
-            type="text"
-            name="city"
-            id="city"
-            autoComplete="off"
-            placeholder="City"
-          />
-          <br />
-          <input
-            type="text"
-            name="message"
-            id="msg"
-            autoComplete="off"
-            placeholder="Message"
-          />
-          <br />
-          <button className="form-btn">Submit</button>
-          <hr />
-        </form>
+        <hr />
       </div>
       <div className="lower-div">
         <div className="quick-links">

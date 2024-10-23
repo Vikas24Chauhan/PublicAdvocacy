@@ -18,14 +18,9 @@
   color: white;
   opacity: 20%;
   margin: 0 auto;
-  font-family: "Poppins", sans-serif;
   font-size: 5rem;
   line-height: 150px;
   text-align: center;
-  @media (max-width: 768px) {
-    font-size: 2.5rem;
-    height: 60px;
-  }
 }
 
 .upper-div h2 {
@@ -33,90 +28,14 @@
   height: 77px;
   color: white;
   margin: 0 auto;
-  font-family: "Poppins", sans-serif;
   font-size: 3rem;
   line-height: 77px;
   text-align: center;
-  @media (max-width: 768px) {
-    font-size: 1.5rem;
-  }
 }
 
-.form-div {
-  width: 100%;
-  height: auto;
-}
-
-.form-div input {
-  background: transparent;
-  border: none;
-}
-
-.form-div input::placeholder {
-  padding: 0 20px;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-}
-
-#name {
-  width: 45%;
-  height: 50px;
-  margin: 20px 25px;
-  border-radius: 20px;
-  border-bottom: 2px solid #ffffff;
-  font-size: 18px;
-}
-
-#email {
-  width: 45%;
-  height: 50px;
-  margin: 20px 50px;
-  border-radius: 20px;
-  border-bottom: 2px solid #ffffff;
-  font-size: 18px;
-}
-
-#phone {
-  width: 45%;
-  height: 50px;
-  margin: 20px 25px;
-  border-radius: 20px;
-  border-bottom: 2px solid #ffffff;
-  font-size: 18px;
-}
-
-#city {
-  width: 45%;
-  height: 50px;
-  margin: 20px 50px;
-  border-radius: 20px;
-  border-bottom: 2px solid #ffffff;
-  font-size: 18px;
-}
-
-#msg {
+.upper-div hr {
   width: 95%;
-  height: 50px;
-  margin: 20px 25px;
-  border-radius: 20px;
-  border-bottom: 2px solid #ffffff;
-  font-size: 18px;
-}
-
-.form-btn {
-  width: 120px;
-  height: 50px;
-  margin: 20px 46%;
-  border-radius: 15px;
-  font-size: 23px;
-  font-family: "Poppins", sans-serif;
-  border: 3px solid #ffffff;
-  color: #ffffff;
-  background: transparent;
-}
-
-.form-div hr {
-  width: 1500px;
+  margin: 2rem auto;
 }
 
 .lower-div {
@@ -127,13 +46,12 @@
 }
 
 .quick-links {
-  width: 20%;
-  height: auto;
+  width: 25%;
 }
 
 .quick-links h4 {
+  width: 100%;
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
   font-weight: 600px;
   font-size: 30px;
   margin: 0px 30px;
@@ -141,7 +59,6 @@
 
 .quick-links ul {
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
   font-weight: 400px;
   font-size: 20px;
 }
@@ -153,13 +70,11 @@
 
 .head-office {
   width: 20%;
-  height: auto;
 }
 
 .head-office h4 {
   color: #ffffff;
   margin: 0;
-  font-family: "Poppins", sans-serif;
   font-size: 30px;
   line-height: 44px;
 }
@@ -167,19 +82,16 @@
 .head-office h5 {
   color: #ffffff;
   margin: 10px 0px;
-  font-family: "Poppins", sans-serif;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 25px;
 }
 
 .contact-info {
   width: 20%;
-  height: auto;
 }
 
 .contact-info h2 {
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
   font-size: 30px;
   line-height: 30px;
   margin: 0;
@@ -187,19 +99,16 @@
 
 .contact-info h5 {
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
   font-size: 20px;
   line-height: 20px;
 }
 
 .follow-us {
   width: 20%;
-  height: auto;
 }
 
 .follow-us h4 {
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
   font-size: 30px;
   line-height: 30px;
   margin: 0;
@@ -222,22 +131,141 @@
   margin: 8px 0;
   line-height: 32px;
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
   font-weight: 400px;
   font-size: 20px;
 }
 
+.last-div {
+  width: 100%;
+}
+
 .last-div hr {
-  width: 1260px;
+  width: 80%;
 }
 
 .last-div h6 {
-  width: 350px;
-  height: 35px;
-  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin: 1rem auto;
   font-family: "Typo Gotika Demo";
   font-size: 15px;
   font-weight: 400;
-  line-height: 33px;
   color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .upper-div h1 {
+    font-size: 4rem;
+    height: 70px;
+    opacity: 20%;
+  }
+
+  .upper-div h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .lower-div {
+    width: 100%;
+  }
+
+  .head-office,
+  .contact-info,
+  .follow-us {
+    width: 23%;
+  }
+
+  .quick-links h4,
+  .head-office h4,
+  .contact-info h2,
+  .follow-us h4 {
+    font-size: 25px;
+  }
+
+  .quick-links ul,
+  .head-office h5,
+  .contact-info h5,
+  .text-div {
+    font-size: 18px;
+  }
+
+  .contact-info h2,
+  .contact-info h5 {
+    line-height: 10px;
+  }
+
+  .logo-div img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .upper-div h1 {
+    font-size: 2.5rem;
+    height: 60px;
+  }
+
+  .upper-div h2 {
+    font-size: 1.5rem;
+    height: 50px;
+  }
+}
+
+@media (max-width: 698px) {
+  .lower-div {
+    flex-wrap: wrap;
+  }
+
+  .quick-links,
+  .head-office,
+  .contact-info,
+  .follow-us {
+    width: 30%;
+  }
+
+  .quick-links h4,
+  .head-office h4,
+  .contact-info h2,
+  .follow-us h4 {
+    font-size: 20px;
+  }
+
+  .quick-links ul,
+  .head-office h5,
+  .contact-info h5,
+  .text-div {
+    font-size: 15px;
+  }
+
+  .follow-us {
+    margin: 1rem 0 0 2rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .upper-div h1 {
+    font-size: 1.5rem;
+    height: 80px;
+  }
+
+  .upper-div h2 {
+    font-size: 1.5rem;
+    line-height: 25px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .quick-links,
+  .head-office,
+  .contact-info,
+  .follow-us {
+    width: 40%;
+  }
+
+  .contact-info {
+    margin: 1rem 0 0 1.5rem;
+    border: 1px solid green;
+  }
 }
