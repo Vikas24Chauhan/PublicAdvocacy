@@ -1,34 +1,66 @@
 .aboutUs1-main-div {
   width: 100%;
-  height: auto;
   background-color: black;
 }
 
 .aboutUs1-logo-img {
   width: 10%;
-  height: auto;
   margin: 3rem 2rem;
 }
 
 .aboutUs1-main-div h2 {
   width: 100%;
-  height: auto;
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
   font-size: 11rem;
   text-align: center;
+  margin: 0;
 }
 
 .aboutUs1-phone-img {
   width: 5%;
-  height: auto;
   padding-left: 92%;
 }
 
 .aboutUs1-whatsapp-img {
   width: 5%;
-  height: auto;
   padding-top: 10px;
   padding-bottom: 20px;
   padding-left: 92%;
+}
+
+@media (max-width: 1024px) {
+  .aboutUs1-main-div h2 {
+    font-size: 9rem;
+  }
+
+  .aboutUs1-logo-img {
+    margin: 4rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutUs1-main-div h2 {
+    font-size: 7rem;
+  }
+
+  .aboutUs1-phone-img,
+  .aboutUs1-whatsapp-img {
+    width: 6%;
+    padding-left: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutUs1-main-div h2 {
+    font-size: 5rem;
+  }
+
+  .aboutUs1-logo-img {
+    width: 12%;
+  }
+
+  .aboutUs1-phone-img,
+  .aboutUs1-whatsapp-img {
+    width: 8%;
+  }
 }
