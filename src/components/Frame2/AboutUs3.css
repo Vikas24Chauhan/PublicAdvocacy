@@ -1,27 +1,54 @@
 .aboutUs3-main-div {
   width: 100%;
-  height: auto;
   padding: 5rem 0;
   display: flex;
   justify-content: center;
 }
 
 .mv-cards {
-  width: 85%;
-  height: auto;
+  width: 80%;
   display: flex;
-  gap: 4rem;
+  justify-content: flex-end;
 }
 
 .mv-card {
   width: 48%;
-  height: auto;
 }
 
 .mv-card h5 {
   width: 80%;
-  height: auto;
-  font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   line-height: 33px;
+  text-align: justify;
+}
+
+@media (max-width: 1024px) {
+  .mv-cards {
+    width: 85%;
+  }
+
+  .mv-card h5 {
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mv-cards {
+    width: 90%;
+  }
+
+  .mv-card h5 {
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .mv-cards {
+    flex-wrap: wrap;
+  }
+
+  .mv-card {
+    width: 100%;
+  }
 }
