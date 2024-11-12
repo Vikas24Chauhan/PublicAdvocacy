@@ -1,6 +1,5 @@
 .aboutUs2-main-div {
   width: 100%;
-  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,18 +9,50 @@
 
 .aboutUs2-img-div {
   width: 40%;
-  height: auto;
+}
+
+.aboutUs2-img-div img {
+  width: 100%;
 }
 
 .aboutUs2-content-div {
   width: 60%;
-  height: auto;
 }
 
 .aboutUs2-content-div p {
   width: 90%;
-  height: auto;
-  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   line-height: 45px;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .aboutUs2-content-div p {
+    font-size: 1.25rem;
+    line-height: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .aboutUs2-main-div {
+    flex-wrap: wrap;
+  }
+
+  .aboutUs2-img-div {
+    width: 50%;
+  }
+
+  .aboutUs2-content-div {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .aboutUs2-img-div {
+    width: 60%;
+  }
+
+  .aboutUs2-content-div p {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
