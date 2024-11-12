@@ -1,6 +1,5 @@
 .aboutUs4-main-div {
   width: 100%;
-  height: auto;
   background-color: black;
 }
 
@@ -10,14 +9,9 @@
   color: white;
   opacity: 20%;
   margin: 0 auto;
-  font-family: "Poppins", sans-serif;
   font-size: 5rem;
   line-height: 150px;
   text-align: center;
-  @media (max-width: 768px) {
-    font-size: 2.5rem;
-    height: 60px;
-  }
 }
 
 .aboutUs4-main-div h2 {
@@ -25,18 +19,13 @@
   height: 77px;
   color: white;
   margin: 0 auto;
-  font-family: "Poppins", sans-serif;
   font-size: 3rem;
   line-height: 77px;
   text-align: center;
-  @media (max-width: 768px) {
-    font-size: 1.5rem;
-  }
 }
 
 .team-cards {
   width: 100%;
-  height: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -45,7 +34,6 @@
 
 .team-card {
   width: 30%;
-  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,27 +41,60 @@
 
 .team-card img {
   width: 75%;
-  height: auto;
 }
 
 .team-card h3 {
   width: 100%;
-  height: auto;
   color: white;
-  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   text-align: center;
-  @media (max-width: 768px) {
-    font-size: 1.2rem;
-  }
 }
 
 .team-card h5 {
   width: 100%;
-  height: auto;
   margin: 0;
   color: white;
-  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .aboutUs4-main-div h1 {
+    font-size: 4rem;
+    height: 75px;
+  }
+
+  .aboutUs4-main-div h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutUs4-main-div h1 {
+    font-size: 2.5rem;
+    height: 60px;
+  }
+
+  .aboutUs4-main-div h2 {
+    font-size: 1.5rem;
+  }
+
+  .team-cards {
+    padding-top: 2rem;
+  }
+
+  .team-card h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-cards {
+    flex-wrap: wrap;
+  }
+
+  .team-card {
+    width: 90%;
+    padding: 1rem 0;
+  }
 }
