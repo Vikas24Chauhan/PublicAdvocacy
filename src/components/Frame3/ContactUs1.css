@@ -1,34 +1,66 @@
 .contact1-main-div {
   width: 100%;
-  height: auto;
   background-color: black;
 }
 
 .contact1-logo {
   width: 10%;
-  height: auto;
   margin: 3rem 2rem;
 }
 
 .contact1-main-div h2 {
   width: 100%;
-  height: auto;
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
   font-size: 11rem;
   text-align: center;
+  margin: 0;
 }
 
 .contact1-phone {
   width: 5%;
-  height: auto;
   padding-left: 92%;
 }
 
 .contact1-whatsapp {
   width: 5%;
-  height: auto;
   padding-top: 10px;
   padding-bottom: 20px;
   padding-left: 92%;
+}
+
+@media (max-width: 1024px) {
+  .contact1-main-div h2 {
+    font-size: 9rem;
+  }
+
+  .contact1-logo {
+    margin: 4rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact1-main-div h2 {
+    font-size: 7rem;
+  }
+
+  .contact1-phone,
+  .contact1-whatsapp {
+    width: 6%;
+    padding-left: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact1-main-div h2 {
+    font-size: 5rem;
+  }
+
+  .contact1-logo {
+    width: 12%;
+  }
+
+  .contact1-phone,
+  .contact1-whatsapp {
+    width: 8%;
+  }
 }
