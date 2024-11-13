@@ -56,7 +56,7 @@
 }
 
 @media (max-width: 768px) {
-  .contact2-main-div {
+  .contact2-main-div h1 {
     font-size: 2.5rem;
   }
 
