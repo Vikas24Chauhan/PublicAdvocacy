@@ -13,24 +13,28 @@ function ServicesDetails() {
             {/* Conditional Rendering */}
             {service.id % 2 == 0 ? (
               <>
-                <div className="services-image">
-                  <img src={service.image} alt="Image" />
-                </div>
-                <div className="about-services">
-                  <h3>{service.name}</h3>
-                  <p>{service.about}</p>
-                  <img src={service.viewMore} alt="View-More Image" />
+                <div className="services-even">
+                  <div className="services-image">
+                    <img src={service.image} alt="Image" />
+                  </div>
+                  <div className="about-services">
+                    <h3>{service.name}</h3>
+                    <p>{service.about}</p>
+                    <img src={service.viewMore} alt="View-More Image" />
+                  </div>
                 </div>
               </>
             ) : (
               <>
-                <div className="about-services">
-                  <h3>{service.name}</h3>
-                  <p>{service.about}</p>
-                  <img src={service.viewMore} alt="View-More Image" />
-                </div>
-                <div className="services-image">
-                  <img src={service.image} alt="Image" />
+                <div className="services-odd">
+                  <div className="about-services">
+                    <h3>{service.name}</h3>
+                    <p>{service.about}</p>
+                    <img src={service.viewMore} alt="View-More Image" />
+                  </div>
+                  <div className="services-image">
+                    <img src={service.image} alt="Image" />
+                  </div>
                 </div>
               </>
             )}
