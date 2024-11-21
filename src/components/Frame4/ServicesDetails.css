@@ -31,7 +31,12 @@
   margin: 4rem 0;
 }
 
-.services-card {
+.services-even {
+  width: 100%;
+  display: flex;
+}
+
+.services-odd {
   width: 100%;
   display: flex;
 }
@@ -133,8 +138,10 @@
     width: 100%;
   }
 
+  .services-even {
+    flex-wrap: wrap;
+  }
   .services-odd {
-    display: flex;
     flex-wrap: wrap-reverse;
   }
 }
