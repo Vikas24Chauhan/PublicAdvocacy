@@ -1,6 +1,6 @@
 import React from "react";
 import "./Relations.css";
-import relationsData from "../../Data/RelationsData";
+import relationsData from "../../assets/Data/RelationsData";
 
 function Relations() {
   return (

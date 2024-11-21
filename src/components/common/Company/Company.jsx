@@ -1,6 +1,6 @@
 import React from "react";
 import "./Company.css";
-import achievements from "../../Data/Achievements.jsx";
+import achievements from "../../../assets/Data/Achievements";
 
 function Company() {
   return (

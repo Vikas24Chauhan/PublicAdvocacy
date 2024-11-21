@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactUs2.css";
-import Data from "../../Data/ConnectData";
+import Data from "../../assets/Data/ConnectData";
 
 function ContactUs2() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Solutions.css";
-import Data from "../../Data/IconsDetails";
+import Data from "../../assets/Data/IconsDetails";
 
 function Solutions() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Services from "./Services";
-import Company from "../../common/Company/Company";
+import Company from "../common/Company/Company";
 import ServicesDetails from "./ServicesDetails";
 
 function Frame2() {

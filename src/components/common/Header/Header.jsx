@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
-import menuIcon from "/public/images/menu-icon.png";
+import menuIcon from "/images/menu-icon.png";
 
 function Header() {
   const [sticky, setSticky] = useState(false);

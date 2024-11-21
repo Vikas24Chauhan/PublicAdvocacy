@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUs4.css";
-import teamData from "../../Data/Team";
+import teamData from "../../assets/Data/Team";
 // import Previous from "/images/previous.png";
 // import Next from "/images/next.png";
 

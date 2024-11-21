@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUs3.css";
-import MissionVision from "../../Data/MissionVision";
+import MissionVision from "../../assets/Data/MissionVision";
 
 function AboutUs3() {
   return (

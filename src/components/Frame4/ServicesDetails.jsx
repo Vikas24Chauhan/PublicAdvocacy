@@ -1,6 +1,6 @@
 import React from "react";
 import "./ServicesDetails.css";
-import servicesData from "../../Data/ServicesData";
+import servicesData from "../../assets/Data/ServicesData";
 
 function ServicesDetails() {
   return (

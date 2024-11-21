@@ -1,6 +1,6 @@
 import React from "react";
 import "./OurClients.css";
-import CompanyLogos from "../../Data/CompanyLogo";
+import CompanyLogos from "../../assets/Data/CompanyLogo";
 
 function OurClients() {
   return (
