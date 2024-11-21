@@ -3,38 +3,18 @@
   background-color: black;
 }
 
-.services-logo {
-  width: 10%;
-  margin: 3rem 2rem;
-}
-
 .services-main-div h2 {
   width: 100%;
   color: #ffffff;
   font-size: 11rem;
   text-align: center;
   margin: 0;
-}
-
-.services-phone {
-  width: 5%;
-  padding-left: 92%;
-}
-
-.services-whatsapp {
-  width: 5%;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 92%;
+  padding: 5rem 0;
 }
 
 @media (max-width: 1024px) {
   .services-main-div h2 {
     font-size: 9rem;
-  }
-
-  .services-logo {
-    margin: 4rem 2rem;
   }
 }
 
@@ -42,25 +22,10 @@
   .services-main-div h2 {
     font-size: 7rem;
   }
-
-  .services-phone,
-  .services-whatsapp {
-    width: 6%;
-    padding-left: 90%;
-  }
 }
 
 @media (max-width: 480px) {
   .services-main-div h2 {
     font-size: 5rem;
-  }
-
-  .services-logo {
-    width: 12%;
-  }
-
-  .services-phone,
-  .services-whatsapp {
-    width: 8%;
   }
 }
